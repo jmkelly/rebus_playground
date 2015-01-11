@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusTests.Messages", "RebusTests.Messages\RebusTests.Messages.csproj", "{EC5B63BB-77A4-4CA5-8E58-EAD5A87D4077}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusTest.Publisher", "RebusTest.Publisher\RebusTest.Publisher.csproj", "{39111C2D-4132-48E3-A921-16FEA9EA5BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusTests.Subscriber", "RebusTest.Subscriber\RebusTests.Subscriber.csproj", "{B2748DD5-8FB6-4C77-8C31-4E4C33032317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusTests.CounterSaga", "RebusTests.CounterSaga\RebusTests.CounterSaga.csproj", "{BD616E0A-B7F3-46D6-9446-B6A9A65F1988}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebusTests.Web", "RebusTest.Web\RebusTests.Web.csproj", "{28F85440-D746-4BD8-9C7C-49E9AD9C8727}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC5B63BB-77A4-4CA5-8E58-EAD5A87D4077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC5B63BB-77A4-4CA5-8E58-EAD5A87D4077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC5B63BB-77A4-4CA5-8E58-EAD5A87D4077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC5B63BB-77A4-4CA5-8E58-EAD5A87D4077}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39111C2D-4132-48E3-A921-16FEA9EA5BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39111C2D-4132-48E3-A921-16FEA9EA5BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39111C2D-4132-48E3-A921-16FEA9EA5BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39111C2D-4132-48E3-A921-16FEA9EA5BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2748DD5-8FB6-4C77-8C31-4E4C33032317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2748DD5-8FB6-4C77-8C31-4E4C33032317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2748DD5-8FB6-4C77-8C31-4E4C33032317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2748DD5-8FB6-4C77-8C31-4E4C33032317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD616E0A-B7F3-46D6-9446-B6A9A65F1988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD616E0A-B7F3-46D6-9446-B6A9A65F1988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD616E0A-B7F3-46D6-9446-B6A9A65F1988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD616E0A-B7F3-46D6-9446-B6A9A65F1988}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F85440-D746-4BD8-9C7C-49E9AD9C8727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F85440-D746-4BD8-9C7C-49E9AD9C8727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F85440-D746-4BD8-9C7C-49E9AD9C8727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F85440-D746-4BD8-9C7C-49E9AD9C8727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
